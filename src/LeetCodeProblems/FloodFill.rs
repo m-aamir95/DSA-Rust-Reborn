@@ -29,18 +29,7 @@ impl Solution {
                 Self::dfs(image, n_row as usize, n_col as usize, src_color, target_color);
             }
         }
-        if sr > 0{
-            Self::dfs(image, sr-1, sc, src_color, target_color);
-        }
-        if sr + 1 < image.len()  {
-            Self::dfs(image, sr+ 1, sc, src_color, target_color);
-        }
-        if sc > 0 {
-            Self::dfs(image, sr, sc-1, src_color, target_color);
-        }
-        if sc + 1 < image[0].len()  {
-            Self::dfs(image, sr, sc + 1, src_color, target_color);
-        }
+      
     }
 }
 
