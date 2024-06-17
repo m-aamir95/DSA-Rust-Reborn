@@ -29,7 +29,7 @@ impl Solution {
                 Self::dfs(image, n_row as usize, n_col as usize, src_color, target_color);
             }
         }
-      
+
     }
 }
 
