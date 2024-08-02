@@ -30,6 +30,7 @@ impl Driver {
         let strs = vec!["flower".to_string(), "flow".to_string(), "flight".to_string()];
         let expected_common_str = "fl";
         assert_eq!(Solution::longest_common_prefix(strs), expected_common_str);
+
+        println!("LongestCommonPrefix, All tests passed...");
     }
 }
-
